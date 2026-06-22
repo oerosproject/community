@@ -23,6 +23,8 @@ Dependencies
 - `rfc/0001-binary-artifact-hosting.md` — must be decided before any user-facing artifact retention/CDN spend; this spec only retains build artifacts internally.
 - Spec 0003 (devcontainer) shares the container image definition used by runners.
 - ADR 0001 (build orchestration tool) — pipeline jobs standardize on the tool chosen there.
+- ADR 0002 (CI runner hosting) — runners are AWS Spot Instances via the CattleOps Terraform module.
+- ADR 0003 (sstate caching) — sstate/DL_DIR persist in S3 via meta-demo-ci `mirror_updates.bbclass`.
 
 Design/Proposal
 - Orchestration: drive builds with `kas` or `bitbake-setup` so matrix entries are declarative YAML, one file per (distro x release x board).

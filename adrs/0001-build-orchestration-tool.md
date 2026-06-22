@@ -3,7 +3,7 @@ ADR 0001: Build Orchestration Tool (bitbake-setup vs kas)
 
 Title: Choose the build orchestration / layer-management tool for meta-ros builds and CI
 Date: 2026-06-22
-Status: Proposed
+Status: Accepted
 
 Context
 - Specs 0001 (CI/CD Platform) and 0004 (migration guide) both need a declarative way to fetch layers, configure `local.conf`/`bblayers.conf`, and reproduce a build the same way locally and in CI.
