@@ -1,5 +1,5 @@
-meta-ros (Oerosproject)
-=======================
+OEROS Community
+===============
 
 This repository contains workspace metadata, specs, and templates for the meta-ros Yocto layer. It is intended to be used as a spec-driven workspace for contributors and AI agents (Claude) to plan, review, and implement work.
 
